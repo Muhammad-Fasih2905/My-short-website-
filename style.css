@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&family=Roboto&family=Ubuntu:wght@400;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    background: crimson;
+    font-family: 'ubuntu', sans-serif;
+    padding: 15px 0;
+    transition: all 0.3s ease;
+}
+.navbar .sticky{
+    padding: 15px 0;
+    background-color: crimson; 
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menu{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu  a{
+    color: #fff;
+    font-size: 18px;
+     font-weight: 500;
+     margin-left: 25px;
+     transition: color 0.3s ease;
+}
+ .navbar .menu a:hover{
+color: crimson;
+ }
+/* home section styling */
+.home101{
+    display: flex;
+    background-image: url(bannerpic.jpg);  
+    height: 100vh;
+    color: #fff;
+    min-width: 500px;
+    font-family: 'ubuntu', sans-serif;
+   
+}
+.max-width{
+    margin: auto 0 auto 40px;
+}
+.home-content {
+    font-size: 27px;
+}
+.text-1{
+    font-size: 27px;
+}
+.home-content{
+    font-size: 27px;
+    font-weight: 600px;
+    margin-left: -3px;
+}
+.text-2{
+    font-size: 27px;
+    font-weight: 600px;
+    margin-left: -3px;
+}
+.home-content {
+    font-size: 27px;
+    margin: 5px 0;
+}
+.text-3{
+    font-size: 27px;
+    margin: 5px 0;
+}
+.home-content {
+    font-weight: 500;
+}
+.text-3 span{
+    font-weight: 500;
+}
+.text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+/* responsive media query start*/
+@media screen and (max-width: 991px){
+    .max-width{
+        padding: 0 50px;
+    }
+
+}
